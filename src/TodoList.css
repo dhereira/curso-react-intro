@@ -1,0 +1,8 @@
+ul {
+    margin: 0px;
+    padding-inline-start: 0px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    
+}

@@ -1,0 +1,13 @@
+.TodoItem {
+    position:relative;
+    background-color:#fafafae5;
+    border-style: double;
+    border-radius: 8px;
+    border-color: blueviolet;
+    color: blueviolet;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    box-shadow:0 5px 50px rgba(32,35,41,.15);
+    width: 420px;
+}
