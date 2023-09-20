@@ -6,8 +6,19 @@
     border-color: blueviolet;
     color: blueviolet;
     display: flex;  
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     box-shadow:0 5px 50px rgba(32,35,41,.15);
-    width: 420px;
+    width: 420px; 
+    margin-top: 4px;
+}
+
+.TodoItem--complete {
+    border-color: blue;
+    color: blue;
+}
+
+.TodoItem-p--complete {
+    text-decoration: line-through;
+    color: blue;
 }

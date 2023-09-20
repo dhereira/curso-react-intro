@@ -3,10 +3,16 @@ button {
     color: aliceblue;
     align-self:center;
     cursor: pointer;
-    border-radius: 15px;
-    box-shadow: 0 9px #999;
-    padding: 15px 25px;
+    height: 64px;
+    width: 64px;
+    font-size: 50px;
+    border-radius: 50%;
+    box-shadow: 0 9px #999;    
     border: none;
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 button:hover {background-color:darkblue}
